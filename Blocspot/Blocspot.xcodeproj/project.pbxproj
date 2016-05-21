@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F8A17F81CF10F83000A72DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8A17F71CF10F83000A72DA /* AppDelegate.swift */; };
+		3F8A17FA1CF10F83000A72DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8A17F91CF10F83000A72DA /* ViewController.swift */; };
+		3F8A17FD1CF10F83000A72DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F8A17FB1CF10F83000A72DA /* Main.storyboard */; };
+		3F8A17FF1CF10F83000A72DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F8A17FE1CF10F83000A72DA /* Assets.xcassets */; };
+		3F8A18021CF10F83000A72DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F8A18001CF10F83000A72DA /* LaunchScreen.storyboard */; };
+		3F8A180D1CF10F83000A72DA /* BlocspotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8A180C1CF10F83000A72DA /* BlocspotTests.swift */; };
+		3F8A18181CF10F83000A72DA /* BlocspotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8A18171CF10F83000A72DA /* BlocspotUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F8A18091CF10F83000A72DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F8A17EC1CF10F83000A72DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F8A17F31CF10F83000A72DA;
+			remoteInfo = Blocspot;
+		};
+		3F8A18141CF10F83000A72DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F8A17EC1CF10F83000A72DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F8A17F31CF10F83000A72DA;
+			remoteInfo = Blocspot;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F8A17F41CF10F83000A72DA /* Blocspot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Blocspot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F8A17F71CF10F83000A72DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F8A17F91CF10F83000A72DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F8A17FC1CF10F83000A72DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F8A17FE1CF10F83000A72DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F8A18011CF10F83000A72DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F8A18031CF10F83000A72DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F8A18081CF10F83000A72DA /* BlocspotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlocspotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F8A180C1CF10F83000A72DA /* BlocspotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlocspotTests.swift; sourceTree = "<group>"; };
+		3F8A180E1CF10F83000A72DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F8A18131CF10F83000A72DA /* BlocspotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlocspotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F8A18171CF10F83000A72DA /* BlocspotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlocspotUITests.swift; sourceTree = "<group>"; };
+		3F8A18191CF10F83000A72DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F8A17F11CF10F83000A72DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F8A18051CF10F83000A72DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F8A18101CF10F83000A72DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F8A17EB1CF10F83000A72DA = {
+			isa = PBXGroup;
+			children = (
+				3F8A17F61CF10F83000A72DA /* Blocspot */,
+				3F8A180B1CF10F83000A72DA /* BlocspotTests */,
+				3F8A18161CF10F83000A72DA /* BlocspotUITests */,
+				3F8A17F51CF10F83000A72DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F8A17F51CF10F83000A72DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F8A17F41CF10F83000A72DA /* Blocspot.app */,
+				3F8A18081CF10F83000A72DA /* BlocspotTests.xctest */,
+				3F8A18131CF10F83000A72DA /* BlocspotUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F8A17F61CF10F83000A72DA /* Blocspot */ = {
+			isa = PBXGroup;
+			children = (
+				3F8A17F71CF10F83000A72DA /* AppDelegate.swift */,
+				3F8A17F91CF10F83000A72DA /* ViewController.swift */,
+				3F8A17FB1CF10F83000A72DA /* Main.storyboard */,
+				3F8A17FE1CF10F83000A72DA /* Assets.xcassets */,
+				3F8A18001CF10F83000A72DA /* LaunchScreen.storyboard */,
+				3F8A18031CF10F83000A72DA /* Info.plist */,
+			);
+			path = Blocspot;
+			sourceTree = "<group>";
+		};
+		3F8A180B1CF10F83000A72DA /* BlocspotTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F8A180C1CF10F83000A72DA /* BlocspotTests.swift */,
+				3F8A180E1CF10F83000A72DA /* Info.plist */,
+			);
+			path = BlocspotTests;
+			sourceTree = "<group>";
+		};
+		3F8A18161CF10F83000A72DA /* BlocspotUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F8A18171CF10F83000A72DA /* BlocspotUITests.swift */,
+				3F8A18191CF10F83000A72DA /* Info.plist */,
+			);
+			path = BlocspotUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F8A17F31CF10F83000A72DA /* Blocspot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F8A181C1CF10F83000A72DA /* Build configuration list for PBXNativeTarget "Blocspot" */;
+			buildPhases = (
+				3F8A17F01CF10F83000A72DA /* Sources */,
+				3F8A17F11CF10F83000A72DA /* Frameworks */,
+				3F8A17F21CF10F83000A72DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Blocspot;
+			productName = Blocspot;
+			productReference = 3F8A17F41CF10F83000A72DA /* Blocspot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F8A18071CF10F83000A72DA /* BlocspotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F8A181F1CF10F83000A72DA /* Build configuration list for PBXNativeTarget "BlocspotTests" */;
+			buildPhases = (
+				3F8A18041CF10F83000A72DA /* Sources */,
+				3F8A18051CF10F83000A72DA /* Frameworks */,
+				3F8A18061CF10F83000A72DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F8A180A1CF10F83000A72DA /* PBXTargetDependency */,
+			);
+			name = BlocspotTests;
+			productName = BlocspotTests;
+			productReference = 3F8A18081CF10F83000A72DA /* BlocspotTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F8A18121CF10F83000A72DA /* BlocspotUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F8A18221CF10F83000A72DA /* Build configuration list for PBXNativeTarget "BlocspotUITests" */;
+			buildPhases = (
+				3F8A180F1CF10F83000A72DA /* Sources */,
+				3F8A18101CF10F83000A72DA /* Frameworks */,
+				3F8A18111CF10F83000A72DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F8A18151CF10F83000A72DA /* PBXTargetDependency */,
+			);
+			name = BlocspotUITests;
+			productName = BlocspotUITests;
+			productReference = 3F8A18131CF10F83000A72DA /* BlocspotUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F8A17EC1CF10F83000A72DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Forrest Zhao";
+				TargetAttributes = {
+					3F8A17F31CF10F83000A72DA = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					3F8A18071CF10F83000A72DA = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 3F8A17F31CF10F83000A72DA;
+					};
+					3F8A18121CF10F83000A72DA = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 3F8A17F31CF10F83000A72DA;
+					};
+				};
+			};
+			buildConfigurationList = 3F8A17EF1CF10F83000A72DA /* Build configuration list for PBXProject "Blocspot" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F8A17EB1CF10F83000A72DA;
+			productRefGroup = 3F8A17F51CF10F83000A72DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F8A17F31CF10F83000A72DA /* Blocspot */,
+				3F8A18071CF10F83000A72DA /* BlocspotTests */,
+				3F8A18121CF10F83000A72DA /* BlocspotUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F8A17F21CF10F83000A72DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F8A18021CF10F83000A72DA /* LaunchScreen.storyboard in Resources */,
+				3F8A17FF1CF10F83000A72DA /* Assets.xcassets in Resources */,
+				3F8A17FD1CF10F83000A72DA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F8A18061CF10F83000A72DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F8A18111CF10F83000A72DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F8A17F01CF10F83000A72DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F8A17FA1CF10F83000A72DA /* ViewController.swift in Sources */,
+				3F8A17F81CF10F83000A72DA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F8A18041CF10F83000A72DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F8A180D1CF10F83000A72DA /* BlocspotTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F8A180F1CF10F83000A72DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F8A18181CF10F83000A72DA /* BlocspotUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F8A180A1CF10F83000A72DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F8A17F31CF10F83000A72DA /* Blocspot */;
+			targetProxy = 3F8A18091CF10F83000A72DA /* PBXContainerItemProxy */;
+		};
+		3F8A18151CF10F83000A72DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F8A17F31CF10F83000A72DA /* Blocspot */;
+			targetProxy = 3F8A18141CF10F83000A72DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F8A17FB1CF10F83000A72DA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F8A17FC1CF10F83000A72DA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F8A18001CF10F83000A72DA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F8A18011CF10F83000A72DA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F8A181A1CF10F83000A72DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F8A181B1CF10F83000A72DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F8A181D1CF10F83000A72DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Blocspot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fzhao92.Blocspot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3F8A181E1CF10F83000A72DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Blocspot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fzhao92.Blocspot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3F8A18201CF10F83000A72DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BlocspotTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fzhao92.BlocspotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Blocspot.app/Blocspot";
+			};
+			name = Debug;
+		};
+		3F8A18211CF10F83000A72DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BlocspotTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fzhao92.BlocspotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Blocspot.app/Blocspot";
+			};
+			name = Release;
+		};
+		3F8A18231CF10F83000A72DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BlocspotUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fzhao92.BlocspotUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Blocspot;
+			};
+			name = Debug;
+		};
+		3F8A18241CF10F83000A72DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BlocspotUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fzhao92.BlocspotUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Blocspot;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F8A17EF1CF10F83000A72DA /* Build configuration list for PBXProject "Blocspot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F8A181A1CF10F83000A72DA /* Debug */,
+				3F8A181B1CF10F83000A72DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F8A181C1CF10F83000A72DA /* Build configuration list for PBXNativeTarget "Blocspot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F8A181D1CF10F83000A72DA /* Debug */,
+				3F8A181E1CF10F83000A72DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3F8A181F1CF10F83000A72DA /* Build configuration list for PBXNativeTarget "BlocspotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F8A18201CF10F83000A72DA /* Debug */,
+				3F8A18211CF10F83000A72DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3F8A18221CF10F83000A72DA /* Build configuration list for PBXNativeTarget "BlocspotUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F8A18231CF10F83000A72DA /* Debug */,
+				3F8A18241CF10F83000A72DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F8A17EC1CF10F83000A72DA /* Project object */;
+}
