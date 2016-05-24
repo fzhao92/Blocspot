@@ -14,6 +14,11 @@
 		3F8A18021CF10F83000A72DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F8A18001CF10F83000A72DA /* LaunchScreen.storyboard */; };
 		3F8A180D1CF10F83000A72DA /* BlocspotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8A180C1CF10F83000A72DA /* BlocspotTests.swift */; };
 		3F8A18181CF10F83000A72DA /* BlocspotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8A18171CF10F83000A72DA /* BlocspotUITests.swift */; };
+		3F8A18261CF1126D000A72DA /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F8A18251CF1126D000A72DA /* MapKit.framework */; };
+		3F8A186C1CF26D20000A72DA /* SearchRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8A186B1CF26D20000A72DA /* SearchRequest.swift */; };
+		3F8A186E1CF3F15D000A72DA /* Datasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8A186D1CF3F15D000A72DA /* Datasource.swift */; };
+		3F8A18701CF4001B000A72DA /* PositionOfInterest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8A186F1CF4001B000A72DA /* PositionOfInterest.swift */; };
+		3F8A18721CF405E0000A72DA /* SearchHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8A18711CF405E0000A72DA /* SearchHistory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		3F8A18131CF10F83000A72DA /* BlocspotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlocspotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F8A18171CF10F83000A72DA /* BlocspotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlocspotUITests.swift; sourceTree = "<group>"; };
 		3F8A18191CF10F83000A72DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F8A18251CF1126D000A72DA /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		3F8A186B1CF26D20000A72DA /* SearchRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchRequest.swift; sourceTree = "<group>"; };
+		3F8A186D1CF3F15D000A72DA /* Datasource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Datasource.swift; sourceTree = "<group>"; };
+		3F8A186F1CF4001B000A72DA /* PositionOfInterest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PositionOfInterest.swift; sourceTree = "<group>"; };
+		3F8A18711CF405E0000A72DA /* SearchHistory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchHistory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F8A18261CF1126D000A72DA /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +88,7 @@
 		3F8A17EB1CF10F83000A72DA = {
 			isa = PBXGroup;
 			children = (
+				3F8A18251CF1126D000A72DA /* MapKit.framework */,
 				3F8A17F61CF10F83000A72DA /* Blocspot */,
 				3F8A180B1CF10F83000A72DA /* BlocspotTests */,
 				3F8A18161CF10F83000A72DA /* BlocspotUITests */,
@@ -103,6 +115,10 @@
 				3F8A17FE1CF10F83000A72DA /* Assets.xcassets */,
 				3F8A18001CF10F83000A72DA /* LaunchScreen.storyboard */,
 				3F8A18031CF10F83000A72DA /* Info.plist */,
+				3F8A186B1CF26D20000A72DA /* SearchRequest.swift */,
+				3F8A186D1CF3F15D000A72DA /* Datasource.swift */,
+				3F8A186F1CF4001B000A72DA /* PositionOfInterest.swift */,
+				3F8A18711CF405E0000A72DA /* SearchHistory.swift */,
 			);
 			path = Blocspot;
 			sourceTree = "<group>";
@@ -193,6 +209,11 @@
 				TargetAttributes = {
 					3F8A17F31CF10F83000A72DA = {
 						CreatedOnToolsVersion = 7.3.1;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					3F8A18071CF10F83000A72DA = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -257,6 +278,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F8A17FA1CF10F83000A72DA /* ViewController.swift in Sources */,
+				3F8A18701CF4001B000A72DA /* PositionOfInterest.swift in Sources */,
+				3F8A186C1CF26D20000A72DA /* SearchRequest.swift in Sources */,
+				3F8A186E1CF3F15D000A72DA /* Datasource.swift in Sources */,
+				3F8A18721CF405E0000A72DA /* SearchHistory.swift in Sources */,
 				3F8A17F81CF10F83000A72DA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -484,6 +509,7 @@
 				3F8A181E1CF10F83000A72DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F8A181F1CF10F83000A72DA /* Build configuration list for PBXNativeTarget "BlocspotTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +518,7 @@
 				3F8A18211CF10F83000A72DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F8A18221CF10F83000A72DA /* Build configuration list for PBXNativeTarget "BlocspotUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +527,7 @@
 				3F8A18241CF10F83000A72DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
