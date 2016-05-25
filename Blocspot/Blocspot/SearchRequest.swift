@@ -9,14 +9,15 @@
 import Foundation
 import MapKit
 
-class UserSearch: NSObject {
+//probably going to remove this class in favor of just saving requests in SearchHistory
+class UserSearchRequest: NSObject {
     let searchTerm: String?
-    var searchResults: MKLocalSearchResponse
-    //let searchResults: Array<MKMapItem>
+    //var searchResults: MKLocalSearchResponse
+    var searchResults: Array<MKMapItem>
     
     init(searchTerm: String) {
         self.searchTerm = searchTerm
-        self.searchResults = nil
+        self.searchResults = [MKMapItem]()
         super.init()
     }
     

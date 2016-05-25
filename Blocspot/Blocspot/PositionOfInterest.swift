@@ -19,7 +19,4 @@ class PositionOfInterest: NSObject, MKAnnotation {
         
         super.init()
     }
-
-    
-    
 }
