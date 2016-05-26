@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F0863301CF6C7AC00220C0C /* SearchResultsTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F08632F1CF6C7AC00220C0C /* SearchResultsTable.swift */; };
 		3F8A17F81CF10F83000A72DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8A17F71CF10F83000A72DA /* AppDelegate.swift */; };
 		3F8A17FA1CF10F83000A72DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8A17F91CF10F83000A72DA /* ViewController.swift */; };
 		3F8A17FD1CF10F83000A72DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F8A17FB1CF10F83000A72DA /* Main.storyboard */; };
@@ -15,7 +16,6 @@
 		3F8A180D1CF10F83000A72DA /* BlocspotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8A180C1CF10F83000A72DA /* BlocspotTests.swift */; };
 		3F8A18181CF10F83000A72DA /* BlocspotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8A18171CF10F83000A72DA /* BlocspotUITests.swift */; };
 		3F8A18261CF1126D000A72DA /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F8A18251CF1126D000A72DA /* MapKit.framework */; };
-		3F8A186C1CF26D20000A72DA /* SearchRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8A186B1CF26D20000A72DA /* SearchRequest.swift */; };
 		3F8A186E1CF3F15D000A72DA /* Datasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8A186D1CF3F15D000A72DA /* Datasource.swift */; };
 		3F8A18701CF4001B000A72DA /* PositionOfInterest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8A186F1CF4001B000A72DA /* PositionOfInterest.swift */; };
 		3F8A18721CF405E0000A72DA /* SearchHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8A18711CF405E0000A72DA /* SearchHistory.swift */; };
@@ -39,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F08632F1CF6C7AC00220C0C /* SearchResultsTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResultsTable.swift; sourceTree = "<group>"; };
 		3F8A17F41CF10F83000A72DA /* Blocspot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Blocspot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F8A17F71CF10F83000A72DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F8A17F91CF10F83000A72DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -53,7 +54,6 @@
 		3F8A18171CF10F83000A72DA /* BlocspotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlocspotUITests.swift; sourceTree = "<group>"; };
 		3F8A18191CF10F83000A72DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F8A18251CF1126D000A72DA /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		3F8A186B1CF26D20000A72DA /* SearchRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchRequest.swift; sourceTree = "<group>"; };
 		3F8A186D1CF3F15D000A72DA /* Datasource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Datasource.swift; sourceTree = "<group>"; };
 		3F8A186F1CF4001B000A72DA /* PositionOfInterest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PositionOfInterest.swift; sourceTree = "<group>"; };
 		3F8A18711CF405E0000A72DA /* SearchHistory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchHistory.swift; sourceTree = "<group>"; };
@@ -115,10 +115,10 @@
 				3F8A17FE1CF10F83000A72DA /* Assets.xcassets */,
 				3F8A18001CF10F83000A72DA /* LaunchScreen.storyboard */,
 				3F8A18031CF10F83000A72DA /* Info.plist */,
-				3F8A186B1CF26D20000A72DA /* SearchRequest.swift */,
 				3F8A186D1CF3F15D000A72DA /* Datasource.swift */,
 				3F8A186F1CF4001B000A72DA /* PositionOfInterest.swift */,
 				3F8A18711CF405E0000A72DA /* SearchHistory.swift */,
+				3F08632F1CF6C7AC00220C0C /* SearchResultsTable.swift */,
 			);
 			path = Blocspot;
 			sourceTree = "<group>";
@@ -279,10 +279,10 @@
 			files = (
 				3F8A17FA1CF10F83000A72DA /* ViewController.swift in Sources */,
 				3F8A18701CF4001B000A72DA /* PositionOfInterest.swift in Sources */,
-				3F8A186C1CF26D20000A72DA /* SearchRequest.swift in Sources */,
 				3F8A186E1CF3F15D000A72DA /* Datasource.swift in Sources */,
 				3F8A18721CF405E0000A72DA /* SearchHistory.swift in Sources */,
 				3F8A17F81CF10F83000A72DA /* AppDelegate.swift in Sources */,
+				3F0863301CF6C7AC00220C0C /* SearchResultsTable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
