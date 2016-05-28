@@ -10,14 +10,14 @@ import Foundation
 import MapKit
 
 class SearchHistory: NSObject {
-    var searchHistory: Dictionary<String, MKLocalSearchRequest>
+    var searchHistoryArray: Dictionary<String, MKLocalSearchRequest>
     
     override init() {
-        self.searchHistory = [:]
+        self.searchHistoryArray = [:]
         super.init()
     }
     
     func addToSearchHistory(searchRequest: MKLocalSearchRequest) {
-        self.searchHistory[searchRequest.naturalLanguageQuery!] = searchRequest
+        self.searchHistoryArray[searchRequest.naturalLanguageQuery!] = searchRequest
     }
 }

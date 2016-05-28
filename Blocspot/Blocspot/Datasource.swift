@@ -12,9 +12,11 @@ import MapKit
 class DataSource {
     static let sharedInstance = DataSource()
     var searchResults:[MKMapItem]
+    var searchHistory: SearchHistory
     
     init () {
         searchResults = []
+        searchHistory = SearchHistory()
     }
     
     func search(searchText: String?, mapView: MKMapView?) {
@@ -28,6 +30,7 @@ class DataSource {
             guard let response = response else {
                 return
             }
+            self.searchHistory.addToSearchHistory(request) //save user search request
             self.searchResults = response.mapItems
         }
     }
