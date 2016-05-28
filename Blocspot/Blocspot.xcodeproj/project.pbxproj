@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3F0863301CF6C7AC00220C0C /* SearchResultsTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F08632F1CF6C7AC00220C0C /* SearchResultsTable.swift */; };
+		3F0863301CF6C7AC00220C0C /* LocationSearchTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F08632F1CF6C7AC00220C0C /* LocationSearchTable.swift */; };
 		3F8A17F81CF10F83000A72DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8A17F71CF10F83000A72DA /* AppDelegate.swift */; };
 		3F8A17FA1CF10F83000A72DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8A17F91CF10F83000A72DA /* ViewController.swift */; };
 		3F8A17FD1CF10F83000A72DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F8A17FB1CF10F83000A72DA /* Main.storyboard */; };
@@ -39,7 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3F08632F1CF6C7AC00220C0C /* SearchResultsTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResultsTable.swift; sourceTree = "<group>"; };
+		3F08632F1CF6C7AC00220C0C /* LocationSearchTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationSearchTable.swift; sourceTree = "<group>"; };
 		3F8A17F41CF10F83000A72DA /* Blocspot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Blocspot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F8A17F71CF10F83000A72DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F8A17F91CF10F83000A72DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -109,16 +109,16 @@
 		3F8A17F61CF10F83000A72DA /* Blocspot */ = {
 			isa = PBXGroup;
 			children = (
-				3F8A17F71CF10F83000A72DA /* AppDelegate.swift */,
-				3F8A17F91CF10F83000A72DA /* ViewController.swift */,
-				3F8A17FB1CF10F83000A72DA /* Main.storyboard */,
-				3F8A17FE1CF10F83000A72DA /* Assets.xcassets */,
 				3F8A18001CF10F83000A72DA /* LaunchScreen.storyboard */,
 				3F8A18031CF10F83000A72DA /* Info.plist */,
+				3F8A17FE1CF10F83000A72DA /* Assets.xcassets */,
+				3F8A17FB1CF10F83000A72DA /* Main.storyboard */,
+				3F8A17F71CF10F83000A72DA /* AppDelegate.swift */,
+				3F8A17F91CF10F83000A72DA /* ViewController.swift */,
 				3F8A186D1CF3F15D000A72DA /* Datasource.swift */,
 				3F8A186F1CF4001B000A72DA /* PositionOfInterest.swift */,
 				3F8A18711CF405E0000A72DA /* SearchHistory.swift */,
-				3F08632F1CF6C7AC00220C0C /* SearchResultsTable.swift */,
+				3F08632F1CF6C7AC00220C0C /* LocationSearchTable.swift */,
 			);
 			path = Blocspot;
 			sourceTree = "<group>";
@@ -282,7 +282,7 @@
 				3F8A186E1CF3F15D000A72DA /* Datasource.swift in Sources */,
 				3F8A18721CF405E0000A72DA /* SearchHistory.swift in Sources */,
 				3F8A17F81CF10F83000A72DA /* AppDelegate.swift in Sources */,
-				3F0863301CF6C7AC00220C0C /* SearchResultsTable.swift in Sources */,
+				3F0863301CF6C7AC00220C0C /* LocationSearchTable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

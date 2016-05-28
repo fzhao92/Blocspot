@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="2Fj-oY-gcW">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -18,7 +18,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yVZ-zA-PX7">
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yVZ-zA-PX7">
                                 <rect key="frame" x="20" y="20" width="560" height="580"/>
                                 <connections>
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="JD6-kQ-Bjn"/>
@@ -33,18 +33,19 @@
                             <constraint firstAttribute="trailingMargin" secondItem="yVZ-zA-PX7" secondAttribute="trailing" id="tU3-DD-V8c"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="VwG-l1-o5l"/>
                     <connections>
                         <outlet property="mapView" destination="yVZ-zA-PX7" id="uPJ-yM-mUJ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="421" y="247"/>
+            <point key="canvasLocation" x="1207" y="200"/>
         </scene>
-        <!--Search Results Table-->
+        <!--Location Search Table-->
         <scene sceneID="xFQ-40-JcD">
             <objects>
-                <tableViewController storyboardIdentifier="SearchResultsTable" id="3vw-Ty-13C" customClass="SearchResultsTable" customModule="Blocspot" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="LocationSearchTable" id="3vw-Ty-13C" customClass="LocationSearchTable" customModule="Blocspot" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="uS4-Ac-Oe7">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -80,10 +81,29 @@
                             <outlet property="delegate" destination="3vw-Ty-13C" id="zPR-PQ-zfz"/>
                         </connections>
                     </tableView>
+                    <navigationItem key="navigationItem" id="WFP-NM-vKC"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="q16-Xl-I73" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="416" y="935"/>
+            <point key="canvasLocation" x="525" y="892"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Flc-eA-RfB">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="2Fj-oY-gcW" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="9xR-tR-a9E">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="t6F-9s-IBJ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hl9-Fa-hnf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="525" y="200"/>
         </scene>
     </scenes>
 </document>
