@@ -19,4 +19,10 @@ class PositionOfInterest: NSObject, MKAnnotation {
         
         super.init()
     }
+    
+    var coord: CLLocationCoordinate2D {
+        get {
+            return coordinate
+        }
+    }
 }

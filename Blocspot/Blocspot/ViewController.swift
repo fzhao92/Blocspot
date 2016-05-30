@@ -40,6 +40,8 @@ class ViewController: UIViewController {
         resultSearchController?.dimsBackgroundDuringPresentation = true
         definesPresentationContext = true
         locationSearchTable.mapView = mapView
+        
+        locationSearchTable.handleMapSearchDelegate = self
     }
 
     override func didReceiveMemoryWarning() {
@@ -66,5 +68,24 @@ extension ViewController : CLLocationManagerDelegate {
     
     func locationManager(manager: CLLocationManager, didFailWithError error: NSError) {
         print("error:: \(error)")
+    }
+}
+
+extension ViewController: HandleMapSearch {
+    func dropPinZoomIn(placemark: MKPlacemark) {
+        // cache the pin
+        selectedPin = placemark
+        mapView.removeAnnotations(mapView.annotations)
+        let annotation = MKPointAnnotation()
+        annotation.coordinate = placemark.coordinate
+        annotation.title = placemark.name
+        if let city = placemark.locality,
+        let state = placemark.administrativeArea {
+            annotation.subtitle = "\(city) \(state)"
+        }
+        mapView.addAnnotation(annotation)
+        let span = MKCoordinateSpanMake(0.05, 0.05)
+        let region = MKCoordinateRegionMake(placemark.coordinate, span)
+        mapView.setRegion(region, animated: true)
     }
 }
