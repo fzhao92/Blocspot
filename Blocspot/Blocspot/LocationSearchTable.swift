@@ -47,18 +47,6 @@ extension LocationSearchTable: UISearchResultsUpdating {
         DataSource.sharedInstance.search(searchBarText, mapView: mapView)
         matchingItems = DataSource.sharedInstance.searchResults
         self.tableView.reloadData()
-        /*
-        let request = MKLocalSearchRequest()
-        request.naturalLanguageQuery = searchBarText
-        request.region = mapView.region
-        let search = MKLocalSearch(request: request)
-        search.startWithCompletionHandler { response, _ in
-            guard let response = response else {
-                return
-            }
-            self.matchingItems = response.mapItems
-            self.tableView.reloadData()
-         */
     }
 }
 
@@ -83,3 +71,11 @@ extension LocationSearchTable {
         dismissViewControllerAnimated(true, completion: nil)
     }
 }
+/*
+extension ViewController : MKMapViewDelegate {
+    func mapView(mapView: MKMapView, viewForAnnotation annotation: MKAnnotation) -> MKAnnotationView? {
+        <#code#>
+    }
+ 
+}
+ */

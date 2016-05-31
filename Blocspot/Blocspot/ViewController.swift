@@ -34,6 +34,7 @@ class ViewController: UIViewController {
         let searchBar = resultSearchController!.searchBar
         searchBar.sizeToFit()
         searchBar.placeholder = "Search for places"
+        searchBar.hidden = true
         navigationItem.titleView = resultSearchController?.searchBar
         
         resultSearchController?.hidesNavigationBarDuringPresentation = false
@@ -49,6 +50,13 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func searchButtonClicked(sender: AnyObject) {
+        resultSearchController?.searchBar.hidden = false
+    }
+    
+    @IBAction func mapViewPressed(sender: UITapGestureRecognizer) {
+        resultSearchController?.searchBar.hidden = true
+    }
 }
 
 extension ViewController : CLLocationManagerDelegate {
